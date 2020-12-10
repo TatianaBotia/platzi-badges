@@ -1,0 +1,25 @@
+.Home{
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b25;
+    background-image: url('../images/stars.svg');
+}
+.Home-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.Home-img{
+    margin-left: 80px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.2rem;
+}
