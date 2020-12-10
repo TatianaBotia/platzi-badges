@@ -9,7 +9,9 @@
     "seed": "node server/seed.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "4.5.3",
@@ -19,6 +21,7 @@
     "react-router-dom": "4.3.1",
     "react-scripts": "2.1.5"
   },
+  "homepage":"https://tatianabotia.github.io/platzi-badges",
   "devDependencies": {
     "fake": "^0.2.2",
     "faker": "^4.1.0",
